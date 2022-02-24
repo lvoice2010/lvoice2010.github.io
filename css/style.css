@@ -1,0 +1,1218 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap");
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  color: #1d2329;
+}
+
+h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p,
+li {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100x;
+  top: 0px;
+  background: #ececf2;
+}
+
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.logo {
+  width: 133px;
+  float: left;
+  height: 100px;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.logo a {
+  display: block;
+  padding-top: 35px;
+}
+
+.nav {
+  overflow: hidden;
+  border-bottom: 1px solid #c4c4c4;
+  padding: 10px 0 5px 0;
+  font-size: 18px;
+}
+
+.submenu {
+  font-size: 18px;
+  padding: 8px 0 5px 0;
+  overflow: hidden;
+}
+
+.nav ul,
+.submenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li,
+.submenu ul li {
+  display: inline;
+  margin: 0 55px 0 0;
+}
+
+header a {
+  color: #646a70;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: #6bb213;
+}
+
+.last-nav:after {
+  content: "";
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-image: url(../img/template/lk.png);
+  background-color: #f78306;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60% 60%;
+}
+
+.last-sub:after {
+  content: "";
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-image: url(../img/template/trubka.png);
+  background-color: #6bb213;
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 60% 60%;
+}
+
+.last-nav,
+.last-sub {
+  float: right;
+  margin-right: 0 !important;
+}
+
+main,
+footer {
+  position: relative;
+  top: 112px;
+  overflow: hidden;
+}
+
+.orange {
+  color: #f78306;
+}
+
+.prem {
+  overflow: hidden;
+}
+
+.prem_block {
+  width: 20%;
+  float: left;
+  padding: 80px 3px 0 3px;
+  text-align: center;
+}
+
+.prem1,
+.prem2,
+.prem3 {
+  margin-right: 4%;
+}
+
+.prem_block p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  margin: 5px 0;
+  color: #454b52;
+}
+.prem-zagolovok {
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  color: #1d2329 !important;
+}
+
+.prem1 {
+  background-image: url(../img/template/prem1.png);
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+}
+
+.prem2 {
+  background-image: url(../img/template/prem2.png);
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+}
+
+.prem3 {
+  background-image: url(../img/template/prem3.png);
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+}
+
+.prem4 {
+  background-image: url(../img/template/prem4.png);
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+}
+
+.gorod {
+  clear: both;
+  margin: 15px 0 0;
+  overflow: hidden;
+}
+.g1 {
+  float: left;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: #1d2329;
+}
+
+.g2 {
+  float: right;
+  color: #454b52;
+  padding-top: 10px;
+}
+
+.gorod a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.gorod a:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url(../img/template/local.png);
+  display: inline-block;
+  vertical-align: middle;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.grey {
+  background: #ececf2;
+  padding-bottom: 75px;
+}
+
+.tarif_block {
+  overflow: hidden;
+  padding: 50px 0 30px 0;
+}
+
+.tarif {
+  width: 200px;
+  height: 243px;
+  text-align: center;
+  overflow: hidden;
+  display: block;
+  float: left;
+  text-decoration: none;
+  color: #1d2329;
+  position: relative;
+  margin-right: 15px;
+  border: 2px solid transparent;
+}
+
+.tarif:hover .vn-tarif {
+  transform: scale(1.04);
+  transition: transform 0.3s;
+}
+
+.tarif:hover {
+  transition: border 0.5s;
+  border: 2px solid #6bb213;
+  border-radius: 10px;
+}
+
+.speed {
+  font-size: 24px;
+  margin: 0 0 30px 0;
+}
+
+.speed-it {
+  font-size: 24px;
+  margin: 0 0 15px 0;
+}
+
+.stoim {
+  font-size: 48px;
+  margin: 0;
+}
+
+.stoim-poyzsnenie {
+  font-size: 17px;
+  margin: 0;
+  position: relative;
+  bottom: 7px;
+}
+
+.tt1,
+.tt2,
+.tt3,
+.tt4 {
+  margin-right: 17px;
+}
+
+.t1 {
+  background-image: url(../img/template/tarif1.png);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.t2 {
+  background-image: url(../img/template/tarif2.png);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.t3 {
+  background-image: url(../img/template/tarif3.png);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.t4 {
+  background-image: url(../img/template/tarif4.png);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.t5 {
+  background-image: url(../img/template/tarif5.png);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.vn-tarif {
+  width: 200px;
+  height: 178px;
+  padding-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.opisanie-tarifa {
+  width: 850px;
+  margin: 10px auto;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.opisanie-tarifa img {
+  width: 205px;
+  height: 205px;
+  border-radius: 50%;
+  float: left;
+  margin: 70px 15px;
+  overflow: hidden;
+}
+
+.opisanie1 {
+  clear: right;
+  margin: 25px 10px 0 10px;
+  padding: 0 10px;
+  width: 300px;
+  overflow: hidden;
+  float: left;
+}
+.opisanie1 button {
+  width: 149px;
+  height: 47px;
+  background: #6bb213;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  text-transform: lowercase;
+  font-size: 18px;
+  line-height: 25px;
+  font-family: "Open Sans", sans-serif;
+  display: block;
+  position: relative;
+  left: 15%;
+}
+
+.opisanie1 button:hover {
+  background: #f78306;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.opisanie1 ul {
+  padding-left: 0;
+}
+
+.opisanie1 li {
+  font-size: 14px;
+  color: #454b52;
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+.opisanie1 li:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-image: url(../img/template/li.png);
+  display: inline-block;
+  vertical-align: middle;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.opisanie2 {
+  clear: right;
+  margin: 5px 5px;
+  overflow: hidden;
+  float: left;
+  width: 242px;
+}
+
+.cena-tarifa {
+  text-align: center;
+  position: relative;
+  bottom: 5px;
+}
+
+.opisanie2 .dop {
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.opisanie2 .dop p {
+  font-size: 14px;
+  color: #454b52;
+  margin: 5px 0 5px 0;
+  overflow: hidden;
+}
+
+.label {
+  width: 33px;
+  float: left;
+  margin: 10px 10px 0 10px;
+}
+
+.opisanie2 .dop .red {
+  clear: both;
+  color: #ff0000;
+  font-size: 13px;
+  margin: 0 0 0 53px;
+  float: left;
+}
+
+/* Переключатель */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 33px;
+  height: 18px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #6bb213;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #6bb213;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(15px);
+  -ms-transform: translateX(15px);
+  transform: translateX(15px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Модальное окно */
+#overlay,
+#overlay2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 999;
+  overflow: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.7s ease-in 0s;
+}
+
+.popup {
+  top: 40%;
+  left: 0;
+  right: 0;
+  font-size: 14px;
+  margin: auto;
+  width: 80%;
+  min-width: 200px;
+  max-width: 600px;
+  position: absolute;
+  padding: 15px 20px;
+  border: 1px solid #666;
+  background-color: #fefefe;
+  z-index: 1000;
+  border-radius: 10px;
+  font: 14px/18px "Tahoma", Arial, sans-serif;
+  box-shadow: 0 0px 14px rgba(0, 0, 0, 0.4);
+}
+.close {
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background-color: #6bb213;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  outline: none;
+}
+.close:before {
+  color: rgba(255, 255, 255, 0.9);
+  content: "X";
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  text-decoration: none;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+}
+.close:hover {
+  background-color: #f78306;
+}
+
+.info-dop {
+  width: 6px;
+  height: 20px;
+  padding: 0 7px;
+  border-radius: 50%;
+  background-color: #f78306;
+  border: none;
+  color: #fff !important;
+  float: right;
+  margin-top: 0 !important;
+  margin-right: 10px !important;
+}
+
+.info-dop:hover {
+  background-color: #6bb213;
+  cursor: pointer;
+}
+
+.zayvka {
+  background-image: url(../img/template/bg-zayvka.png);
+  height: 556px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  padding: 10px 0 50px 0;
+  background-size: cover;
+}
+
+.rejim-rabotu {
+  width: 300px;
+  overflow: hidden;
+  float: left;
+  margin: 140px 20px 0 140px;
+}
+
+.zag {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 25px 0 10px 0;
+}
+
+.rr {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  color: #454b52;
+  margin: 5px 0;
+}
+a.rr {
+  text-decoration: none;
+}
+
+.tv {
+  overflow: hidden;
+  padding-bottom: 75px;
+}
+.tv h2,
+.grey h2 {
+  text-align: center;
+}
+
+.tv-sort {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.tv-sort a:active {
+  background: #f78306;
+}
+
+.tv-sort a:hover {
+  background: #f78306;
+}
+
+.tv-sort a {
+  text-decoration: none;
+  width: 200px;
+  height: 30px;
+  background: #c4c4c4;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 30px;
+  color: #fff;
+  text-transform: lowercase;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.block-tv,
+.block-tv1 {
+  width: 350px;
+  float: left;
+}
+
+.block-tv {
+  margin-right: 30px;
+}
+
+.tv-tarifs {
+  clear: both;
+  overflow: hidden;
+}
+
+/*Тарифы ТВ*/
+
+.tarif_block-tv {
+  overflow: hidden;
+  padding: 30px 0 30px 0;
+}
+
+.tarif-tv {
+  width: 200px;
+  height: 243px;
+  text-align: center;
+  overflow: hidden;
+  display: block;
+  float: left;
+  text-decoration: none;
+  color: #1d2329;
+  position: relative;
+  margin-right: 15px;
+  border: 2px solid transparent;
+}
+
+.tarif-tv:hover .vn-tarif-tv {
+  transform: scale(1.04);
+  transition: transform 0.3s;
+}
+
+.tarif-tv:hover {
+  transition: border 0.5s;
+  border: 2px solid #f78306;
+  border-radius: 10px;
+}
+
+.tvv1,
+.tvv2,
+.tvv3,
+.tvv4 {
+  margin-right: 17px;
+}
+
+.tv1 {
+  background-image: url(../img/template/tarif1tv.png);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.tv2 {
+  background-image: url(../img/template/tarif2tv.png);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.tv3 {
+  background-image: url(../img/template/tarif3tv.png);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.tv4 {
+  background-image: url(../img/template/tarif4tv.png);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.tv5 {
+  background-image: url(../img/template/tarif5tv.png);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+.vn-tarif-tv {
+  width: 200px;
+  height: 233px;
+  padding-top: 5px;
+  border-radius: 10px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tarif_block-tv p {
+  color: #fff;
+}
+
+.tv-paket {
+  font-size: 24px;
+  line-height: 33px;
+  margin-top: 10px;
+  height: 66px;
+}
+
+.kanaly-tv {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.stoim-tv {
+  font-size: 17px;
+}
+
+.stoim-tv span {
+  font-size: 24px;
+}
+
+.opis {
+  color: #fff;
+  background: rgba(247, 131, 6, 0.5);
+  border-radius: 10px;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: lowercase;
+  position: relative;
+  top: 13px;
+}
+
+.dop-tv {
+  display: block;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: #454b52;
+}
+
+.dop-tv:hover {
+  cursor: pointer;
+  background-color: rgba(97, 97, 97, 0.12);
+}
+
+.dop-tv p {
+  margin: 17px auto;
+  text-align: center;
+}
+
+.dopystv {
+  width: 70%;
+  text-align: left !important;
+  margin: 0 auto;
+  height: 100%;
+  display: block;
+  border: 1px solid #c4c4c4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  color: #454b52;
+}
+
+.dopystv p {
+  text-align: left !important;
+  width: 70%;
+  margin: 10px;
+}
+
+.dopystv .label {
+  width: 33px;
+  min-height: 100%;
+}
+
+.dopystv .red {
+  clear: both;
+  color: #ff0000;
+  font-size: 13px;
+  margin: 0 0 10px 53px;
+  float: left;
+}
+/*Телефония*/
+
+.telep1 {
+  width: 40%;
+  margin: 0 10% 0 5%;
+  float: left;
+}
+
+.telep2 {
+  width: 45%;
+  float: right;
+}
+
+.telep1,
+.telep2 {
+  color: #454b52;
+}
+
+.telep2 p {
+  padding: 25px 0 25px 90px;
+}
+
+.tph1 {
+  background-image: url(../img/template/tph1.png);
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+}
+
+.tph2 {
+  background-image: url(../img/template/tph2.png);
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+}
+
+.tph3 {
+  background-image: url(../img/template/tph3.png);
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+}
+
+.tph4 {
+  background-image: url(../img/template/tph4.png);
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+}
+
+.dark {
+  background-color: #1d2329;
+  padding: 40px 0 85px 0;
+}
+
+.dark h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.oplata {
+  background-image: url(../img/template/block-oplaty.png);
+  background-repeat: no-repeat;
+  padding: 10px 0 50px 0;
+  background-position: center 0;
+  padding: 10px 0 50px 0;
+  background-size: cover;
+}
+
+.oplata-bil {
+  width: 40%;
+  height: 342px;
+  float: left;
+  margin-right: 5%;
+}
+.opl-info {
+  overflow: hidden;
+}
+
+.vid-ps {
+  font-size: 20px !important;
+  line-height: 24px !important;
+}
+
+.opl-info p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #454b52;
+}
+
+.opl-info a {
+  text-decoration: none;
+  color: #f78306;
+}
+
+.opisan-opl {
+  font-size: 14px !important;
+  line-height: 19px !important;
+  font-weight: 300 !important;
+  color: #454b52;
+  background: #ececf2;
+  border: 1px solid #454b52 !important;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.ssilki-banka {
+  overflow: hidden;
+  padding: 20px 0 20px 0;
+}
+
+.bank {
+  font-size: 14px !important;
+  line-height: 19px !important;
+  font-weight: 300 !important;
+  color: #454b52 !important;
+  border: 1px solid #454b52 !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-family: "Open Sans", sans-serif;
+  background: #ececf2;
+  margin-right: 30px;
+}
+
+.bank:hover {
+  background: #fae5ac;
+}
+
+footer li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+footer ul {
+  padding-left: 0;
+}
+
+footer li a {
+  text-decoration: none;
+  color: #1d2329;
+}
+
+.nav1 p,
+.nav2 p,
+.nav3 p,
+.nav4 p,
+.social p {
+  font-size: 16px;
+  color: #ececf2;
+  text-transform: uppercase;
+  font-family: Montserrat;
+}
+
+.nav1,
+.nav2,
+.nav3 {
+  float: left;
+  margin-right: 20px;
+  width: 18%;
+}
+
+.nav4 {
+  float: left;
+  width: 20%;
+}
+.social {
+  float: right;
+}
+
+.social li {
+  display: inline;
+  margin: 0 5px;
+}
+
+footer {
+  background-color: #646a70;
+  overflow: hidden;
+  clear: both;
+}
+
+.logo-f {
+  margin: 20px 0;
+}
+
+.policy {
+  clear: both;
+  margin-top: 50px;
+  overflow: hidden;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #1d2329;
+}
+
+.policy a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #1d2329;
+  font-family: "Open Sans", sans-serif;
+}
+
+.policy a:hover {
+  color: #fff;
+}
+
+.nav-foot {
+  overflow: hidden;
+}
+
+.copyright p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #ececf2;
+}
+
+/*О компании*/
+.news {
+  background-image: url(../img/template/news.png);
+  background-repeat: no-repeat;
+  padding: 10px 0 50px 0;
+  background-position: center 0;
+  padding: 10px 0 50px 0;
+  background-size: cover;
+}
+
+.news h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.lenta {
+  width: 50%;
+  float: left;
+  margin-right: 5%;
+}
+.teh-rabotu {
+  width: 45%;
+  overflow: hidden;
+}
+.news h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.news p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #454b52;
+  margin: 10px 0 0 0;
+}
+
+.date-news {
+  font-size: 14px !important;
+  color: #8c8c8c !important;
+  margin: 0 !important;
+}
+
+.teh-news,
+.novost {
+  margin-bottom: 30px;
+}
+
+.more-news {
+  text-decoration: none;
+  background: #6bb213;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  font-size: 16px !important;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: 160px;
+  height: 27px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 20px 10px 20px;
+}
+
+.more-news:hover {
+  background-color: #f78306;
+  cursor: pointer;
+}
+.block-lic {
+  overflow: hidden;
+  color: #454b52;
+}
+
+.lic1 {
+  width: 270px;
+  height: 315px;
+  background-image: url(../img/template/lic.png);
+  background-repeat: no-repeat;
+  float: left;
+  margin-right: 20px;
+  padding: 25px 40px 10px 40px;
+}
+
+.nomer-lic {
+  margin-top: 5px;
+}
+
+.rkn {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: Montserrat;
+  text-align: center;
+  color: #1d2329;
+  margin-top: 40px;
+}
+
+.poln-lic {
+  background-image: url(../img/template/arrow.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  height: 40px;
+  display: block;
+}
+
+.lic1:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.block-dokov img {
+  width: 255px;
+  height: 350px;
+}
+.doc1 {
+  width: 255px;
+  text-align: center;
+  color: #454b52;
+  float: left;
+  margin-right: 20px;
+}
+.block-dokov img:hover {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.kontaktu {
+  background-image: url(../img/template/news.png);
+  background-repeat: no-repeat;
+  background-position: center 0;
+  padding: 10px 0 50px 0;
+  background-size: cover;
+}
+
+.rejim-kontaktu {
+  width: 350px;
+  overflow: hidden;
+  float: left;
+  margin: 20px 40px 0 30px;
+}
+
+a.rr:hover {
+  color: #f78306;
+}
+
+.kart-org {
+  overflow: hidden;
+  margin-top: 50px;
+}

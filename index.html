@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зенком - Интернет-провайдер в Звенигороде</title>
+    <link href="css/style.css" rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="/"><img src="/img/template/logo.png"></a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="">Частным лицам</a></li>
+                    <li><a href="">Организациям</a></li>
+                    <li><a href="">Операторам</a></li>
+                    <li><a href="">О компании</a></li>
+                    <li class="last-nav"><a href="">Личный кабинет</a></li>
+                </ul>
+            </div>
+            <div class="submenu">
+                <ul>
+                    <li><a href="">Интернет</a></li>
+                    <li><a href="">ТВ</a></li>
+                    <li><a href="">Телефония</a></li>
+                    <li><a href="">Карта покрытия</a></li>
+                    <li><a href="">Оплатить</a></li>
+                    <li class="last-sub"><a href="">Заказать звонок</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="wrapper">
+                <h1>интернет и <span class="orange">ТВ</span></h1>
+                <div class="prem">
+                    <div class="prem_block prem1">
+                        <p class="prem-zagolovok">Бесплатное подключение</p>
+                        <p>Срочное подключение интрнета и ТВ в течение суток</p>
+                    </div>
+                    <div class="prem_block prem2">
+                        <p class="prem-zagolovok">Техподдержка 24/7</p>
+                        <p>Круглосуточная техническая поддержка по телефону</p>
+                    </div>
+                    <div class="prem_block prem3">
+                        <p class="prem-zagolovok">Скорость до 100Гбит/с</p>
+                        <p>Пропускная способность сети до 100 Гбит/сек</p>
+                    </div>
+                    <div class="prem_block prem4">
+                        <p class="prem-zagolovok">Интернет без оплаты</p>
+                        <p>Возможность протестировать услугу Интернет без оплаты</p>
+                    </div>
+                </div>
+                <div class="gorod">
+                    <p class="g1">Ваш населенный пункт <a href="/" class="orange">Звенигород</a></p>
+                    <p class="g2">Тарифы могут отличаться в зависимости от населенного пункта</p>
+                </div>
+            </div>
+        </section>
+        <section class="grey">
+            <div class="wrapper">
+                <div class="tarif_block">
+                    <div class="tarif tt1">
+                        <div class="vn-tarif t1">
+                            <p class="speed-it">100 Мбит/с</p>
+                            <p class="stoim">499</p>
+                            <p class="stoim-poyzsnenie">₽ / месяц</p>
+                        </div>
+                    </div>
+                    <div class="tarif tt2">
+                        <div class="vn-tarif t2">
+                            <p class="speed-it">200 Мбит/с</p>
+                            <p class="stoim">599</p>
+                            <p class="stoim-poyzsnenie">₽ / месяц</p>
+                        </div>
+                    </div>
+                    <div class="tarif tt3">
+                    <div class="vn-tarif t3">
+                            <p class="speed-it">500 Мбит/с</p>
+                            <p class="stoim">749</p>
+                            <p class="stoim-poyzsnenie">₽ / месяц</p>
+                        </div>
+                    </div>
+                    <div class="tarif tt4">
+                    <div class="vn-tarif t4">
+                            <p class="speed-it">100 Мбит/с+ТВ</p>
+                            <p class="stoim">649</p>
+                            <p class="stoim-poyzsnenie">₽ / месяц</p>
+                        </div>
+                    </div>
+                    <div class="tarif tt5">
+                        <div class="vn-tarif t5">
+                            <p class="speed-it">200 Мбит/с+ТВ</p>
+                            <p class="stoim">749</p>
+                            <p class="stoim-poyzsnenie">₽ / месяц</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="opisanie-tarifa">
+                    <img src="/img/template/opisanie-tarifa1.jpg">
+                    <div class="opisanie1">
+                        <div>
+                            <p class="speed">500 МБит/сек</p>
+                            <ul>
+                                <li>Неограниченное количество устройств</li>
+                                <li>Загрузка для интенсивного использования</li>
+                                <li>Потковая передача в формате HD с экстремальной скоростью</li>
+                                <li>Многопользовательские игры</li>
+                            </ul>
+                            <button>Подключить</button>
+                        </div>
+
+                    </div>
+                    <div class="opisanie2">
+                        <div class="cena-tarifa">
+                            <p class="stoim">899</p>
+                            <p class="stoim-poyzsnenie">₽ / месяц</p>
+                        </div>
+                        <div class="dop dop1">
+                            <div class="label">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                            <p>Аренда внешнего статичного IP адреса</p>
+                            <p class="red">+150 рублей в месяц</p>
+                            <p onclick="swa()" type="button" class="info-dop">?</p>
+                            <div id="overlay">
+                                <div class="popup">
+                                    <button class="close" title="Закрыть окно" onclick="swa2()"></button>
+                                    <div class="opisanie-dop">
+                                        <p>Подробное описание дополнительной услуги1</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dop dop2">
+                            <div class="label">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                            <p>Ночное ускорение</p>
+                            <p class="red">+150 рублей в месяц</p>
+                            <p onclick="swa()" type="button" class="info-dop">?</p>
+                            <div id="overlay">
+                                <div class="popup">
+                                    <button class="close" title="Закрыть окно" onclick="swa2()"></button>
+                                    <div class="opisanie-dop">
+                                        <p>Подробное описание дополнительной услуги #2</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                            et dolore magna
+                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                            commodo consequat. Duis
+                                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                            Excepteur sint
+                                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dop dop3">
+                            <div class="label">
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                            <p>Турбо ускорение</p>
+                            <p class="red">+150 рублей в месяц</p>
+                            <p onclick="swa()" type="button" class="info-dop">?</p>
+                            <div id="overlay">
+                                <div class="popup">
+                                    <button class="close" title="Закрыть окно" onclick="swa2()"></button>
+                                    <div class="opisanie-dop">
+                                        <p>Подробное описание дополнительной услуги #3</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                            et dolore magna
+                                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                            commodo consequat. Duis
+                                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                            Excepteur sint
+                                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="zayvka">
+            <div class="wrapper">
+                <div class="rejim-rabotu">
+                    <p class="zag">Режим работы офиса</p>
+                    <p class="rr">ПН-СБ 9:00 - 18:00</p>
+                    <p class="rr">перерыв 13:00 - 14:00</p>
+                    <p class="rr">ВС - выходной</p>
+                    <p class="zag">Техническая поддержка</p>
+                    <p class="rr">круглосуточно</p>
+                    <a href="tel:+74987157777" class="rr">8 (498) 715-77-77</a>
+                </div>
+                <div class="forma-zauvki">
+                   
+                   
+                </div>
+            </div>
+
+        </section>
+       
+        <section class="tv">
+            <div class="wrapper">
+                <h2>Цифровое телевидение</h2>
+            
+                <div class="block-tv">
+                    <p class="zag">В любое время</p>
+                    <p class="rr">Любимые каналы и передачи тогда, когда
+                    это удобно вам. Вы можете поставить эфир
+                    на паузу, отложить просмотр и вернуться
+                    к пропущенным выпускам в течение 7 дней</p>
+                </div>
+                <div class="block-tv">
+                    <p class="zag">На любом устройстве</p>
+                    <p class="rr">ТВ в комфортном формате: на компьютере,
+                    смартфоне, планшете или телевизоре.
+                    Без дополнительных затрат и оборудования.
+                    Теперь менять устройства также легко, как
+                    переключать каналы</p>
+                </div>
+                <div class="block-tv1">
+                    <p class="zag">В любом месте</p>
+                    <p class="rr">Приятно смотреть дома на большом экране
+                    Smart TV или через приставку и легко взять
+                    с собой, скачав приложение. Новости, кино,
+                    спорт и многое другое там, где вы захотите</p>
+                </div>
+                <div class="tv-tarifs"> 
+                   <div class="tv-sort">
+                        <a href="#">Все</a>
+                        <a href="#">Домашние</a>
+                        <a href="#">Коммерческие</a>
+                   </div>
+                    <div class="tarif_block-tv">
+                        <a href="#"  class="tarif-tv tvv1">
+                            <div class="vn-tarif-tv tv1">
+                                <p class="tv-paket">Оптима</p>
+                                <p class="kanaly-tv">287 каналов</p>
+                                <p class="stoim-tv"><span>449</span> ₽ / месяц</p>
+                                <p class="opis">Описание</p>
+                            </div>
+                        </a>
+                        <a href="#"  class="tarif-tv tvv2">
+                            <div class="vn-tarif-tv tv2">
+                                <p class="tv-paket">Эксклюзив</p>
+                                <p class="kanaly-tv">315 каналов</p>
+                                <p class="stoim-tv"><span>749</span> ₽ / месяц</p>
+                                <p class="opis">Описание</p>
+                            </div>
+                        </a>
+                        <a href="#"  class="tarif-tv tvv3">
+                            <div class="vn-tarif-tv tv3">
+                                <p class="tv-paket">Эксклюзив + Кино</p>
+                                <p class="kanaly-tv">315 каналов</p>
+                                <p class="stoim-tv"><span>999</span> ₽ / месяц</p>
+                                <p class="opis">Описание</p>
+                            </div>
+                        </a>
+                        <a href="#"  class="tarif-tv tvv4">
+                            <div class="vn-tarif-tv tv4">
+                                <p class="tv-paket">Коммерческий лайт</p>
+                                <p class="kanaly-tv">59 каналов</p>
+                                <p class="stoim-tv"><span>200</span> ₽ / месяц</p>
+                                <p class="opis">Описание</p>
+                            </div>
+                        </a>
+                        <a href="#" class="tarif-tv tvv5">
+                            <div class="vn-tarif-tv tv5">
+                                <p class="tv-paket">Коммерческий</p>
+                                <p class="kanaly-tv">96 каналов</p>
+                                <p class="stoim-tv"><span>500</span> ₽ / месяц</p>
+                                <p class="opis">Описание</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="opisanie-tarifa">
+                        <img src="/img/template/opisanie-tarifa-tv1.png">
+                        <div class="opisanie1">
+                            <div>
+                                <p class="speed">Эксклюзив + кино</p>
+                                <ul>
+                                    <li>315 каналов</li>
+                                    <li>Любое количество устройств</li>
+                                    <li>Каналы и передачи, когда удобно</li>
+                                    <li>На любом устройстве</li>
+                                </ul>
+                                <button>Подключить</button>
+                            </div>
+                    
+                        </div>
+                        <div class="opisanie2">
+                            <div class="cena-tarifa">
+                                <p class="stoim">999</p>
+                                <p class="stoim-poyzsnenie">₽ / месяц</p>
+                            </div>
+                            <div  class="dop-tv">
+                                <p onclick="ppa()" type="button" >Доп. пакеты каналов</p>
+                                <div id="overlay2">
+                                    <div class="popup">
+                                        <button class="close" title="Закрыть окно" onclick="ppa2()"></button>
+                                        <div class="opisanie-dop">
+                                            <div class="dopystv">
+                                                <div class="label">
+                                                    <label class="switch">
+                                                        <input type="checkbox">
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </div>
+                                                <p>+1 устройство</p>
+                                                <p class="red">+150 рублей в месяц</p>
+                                            </div>
+                                            <div class="dopystv">
+                                                <div class="label">
+                                                    <label class="switch">
+                                                        <input type="checkbox">
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </div>
+                                                <p>+2 устройства</p>
+                                                <p class="red">+300 рублей в месяц</p>
+                                            </div>
+                                            <div class="dopystv">
+                                                <div class="label">
+                                                    <label class="switch">
+                                                        <input type="checkbox">
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </div>
+                                                <p>+3 устройства</p>
+                                                <p class="red">+450 рублей в месяц</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dop-tv">
+                                <p onclick="ppa()" type="button">Добавить устройства</p>
+                                <div id="overlay2">
+                                    <div class="popup">
+                                        <button class="close" title="Закрыть окно" onclick="ppa2()"></button>
+                                        <div class="opisanie-dop">
+                                            <div class="dopystv">
+                                                <div class="label">
+                                                    <label class="switch">
+                                                        <input type="checkbox">
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </div>
+                                                <p>+1 устройство</p>
+                                                <p class="red">+150 рублей в месяц</p>
+                                            </div>
+                                            <div class="dopystv">
+                                                <div class="label">
+                                                    <label class="switch">
+                                                        <input type="checkbox">
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </div>
+                                                <p>+2 устройства</p>
+                                                <p class="red">+300 рублей в месяц</p>
+                                            </div>
+                                            <div class="dopystv">
+                                                <div class="label">
+                                                    <label class="switch">
+                                                        <input type="checkbox">
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </div>
+                                                <p>+3 устройства</p>
+                                                <p class="red">+450 рублей в месяц</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="dop-tv">
+                            <p onclick="ppa()" type="button" >Аренда оборудования</p>
+                                <div id="overlay2">
+                                    <div class="popup">
+                                        <button class="close" title="Закрыть окно" onclick="ppa2()"></button>
+                                        <div class="opisanie-dop">
+                                            <div class="dopystv">
+                                                <div class="label">
+                                                    <label class="switch">
+                                                        <input type="checkbox">
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </div>
+                                                <p>+1 устройство</p>
+                                                <p class="red">+150 рублей в месяц</p>
+                                            </div>
+                                            <div class="dopystv">
+                                                <div class="label">
+                                                    <label class="switch">
+                                                        <input type="checkbox">
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </div>
+                                                <p>+2 устройства</p>
+                                                <p class="red">+300 рублей в месяц</p>
+                                            </div>
+                                            <div class="dopystv">
+                                                <div class="label">
+                                                    <label class="switch">
+                                                        <input type="checkbox">
+                                                        <span class="slider round"></span>
+                                                    </label>
+                                                </div>
+                                                <p>+3 устройства</p>
+                                                <p class="red">+450 рублей в месяц</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="grey">
+            <div class="wrapper">
+                <h2>Телефония</h2>
+                <div class="telep1">
+                    <p>Предоставляем доступ к междугородной и международной
+                    связи с помощью цифровой телефонии. Технология
+                    IP-телефонии подразумевает телефонную связь с помощью
+                    интернета. Простота эксплуатации и низкая стоимость -
+                    -её главные преимущества.<p>
+                    <p>Сервисы нашей телефонной станции: тоновый набор,
+                    короткая нумерация, запрет исходящей или входящей
+                    связи, переадресация на городские / мобильные /
+                    международные номеру. Предоставляем номера с
+                    запоминающейся последовательностью цифр и
+                    многоканальные номера. Предлагаем услуги по
+                    подключению телефонных номеров в телефонных кодах
+                    495 и 498.</p>
+                    <p>Телефонная связь для бизнеса по самым низким ценам!
+                    Подключайтесь, чтобы быть на связи вместе с ZENCOM! </p>
+                </div>
+                <div class="telep2">
+                    <p class="tph1">Высококачественная местная, междугородняя и международная связь</p>
+                    <p class="tph2">Телефонные номера в кодах “495, 498”</p>
+                    <p class="tph3">Организация потоков E1 (G/703 2048 кбит/с EURO - ISDN</p>
+                    <p class="tph4">Услуги IP - телефонии</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="oplata">
+            <div class="wrapper">
+                <div class="oplata-bil">
+                </div>
+                <div class="opl-info">
+                    <p class="vid-ps">Сбербанк Онлайн</p>
+                    <p>Вы можете пополнить лицевой счёт с помощью <a href="#" target="_blank">Сбербанк Онлайн</a>.</p>
+                    <p class="vid-ps">Электронные деньги</p>
+                    <p>Вы можете оплатить интернет с помощью <a href="#" target="_blank">QIWI Wallet</a>.</p>
+                    <p class="vid-ps">Банковский перевод</p>
+                    <p class="opisan-opl">Внимание! Срок зачисления на наш расчётный счёт денежных средств,
+                    отправленных банковским переводом, составляет от 1 до 5 рабочих дней.
+                    Банковский перевод не облагается НДС.</p>
+                    <div class="ssilki-banka"><a href="#" class="bank">Банк “Сбербанк”</a> <a href="#" class="bank">Банк СМП</a></div>
+                    <p class="vid-ps">Наличный перевод</p>
+                    <p>Вы можете оплатить интернет наличными деньгами через <a href="#" target="_blank">QIWI Терминал</a>.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="dark">
+            <div class="wrapper">
+                <h2> Карта покрытия </h2>
+                <script type="text/javascript" charset="utf-8" async
+                    src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afa1be8821f22b060e4060759f9ba45dce626cfed3f3e5516d6b4a071d22aace2&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="wrapper">
+            <div class="logo-f">
+                <a href="/"><img src="/img/template/logo.png"></a>
+            </div>
+            <div class="nav-foot">
+                <div class="nav1">
+                    <p>Меню</p>
+                    <ul>
+                        <li><a href="#">Частным лицам</a></li>
+                        <li><a href="#">Организациям</a></li>
+                        <li><a href="#">Операторам</a></li>
+                        <li><a href="#">О компании</a></li>
+                    </ul>
+                </div>
+                <div class="nav2">
+                    <p>Услуги</p>
+                    <ul>
+                        <li><a href="#">Интернет</a></li>
+                        <li><a href="#">Телевидение</a></li>
+                        <li><a href="#">Телефония</a></li>
+                    </ul>
+                </div>
+                <div class="nav3">
+                    <p>Документы</p>
+                    <ul>
+                        <li><a href="#">Реквизиты</a></li>
+                        <li><a href="#">Лицензиии</a></li>
+                        <li><a href="#">Свидетельства</a></li>
+                    </ul>
+                </div>
+                <div class="nav4">
+                    <p>Контакты</p>
+                    <ul>
+                        <li><a href="#"><a href="tel:++74987157777">8 (498) 715-77-77</a></li>
+                        <li><a href="mailto:info@zencom.ru">info@zencom.ru</a></li>
+                        <li>РФ, 143180, Московская обл., г.Звенигород, ул.Почтовая, д.8, оф.201</li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <p>Социальные медиа</p>
+                    <ul>
+                        <li><a href="#"><img src="/img/template/whatsapp.png"></a></li>
+                        <li><a href="#"><img src="/img/template/vk.png"></a></li>
+                        <li><a href="#"><img src="/img/template/insta.png"></a></li>
+                        <li><a href="#"><img src="/img/template/facebook.png"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="policy">
+                <a href="#">Политика конфиденциальности</a>
+                <a href="#">Политика использования файлов cookie</a>
+            </div>
+            <div class="copyright">
+                <p>© ООО «Зенком» 2001–2021</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var b = document.getElementById('overlay');
+        function swa() {
+            b.style.visibility = 'visible';
+            b.style.opacity = '1';
+            b.style.transition = 'all 0.7s ease-out 0s';
+        }
+        function swa2() {
+            b.style.visibility = 'hidden';
+            b.style.opacity = '0';
+        }
+    </script>
+
+        <script>
+            var x = document.getElementById('overlay2');
+            function ppa() {
+                x.style.visibility = 'visible';
+                x.style.opacity = '1';
+                x.style.transition = 'all 0.7s ease-out 0s';
+            }
+            function ppa2() {
+                x.style.visibility = 'hidden';
+                x.style.opacity = '0';
+            }
+        </script>
+</body>
+</html>
